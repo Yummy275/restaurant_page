@@ -1,4 +1,4 @@
-const placeItems = () => {
+const renderMenu = () => {
     const content = document.getElementById('content');
 
     const heading = document.createElement('h1');
@@ -15,4 +15,4 @@ const placeItems = () => {
     content.appendChild(words);
 }
 
-export {placeItems}
+export {renderMenu}

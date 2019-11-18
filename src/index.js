@@ -1,3 +1,4 @@
-import {placeItems} from './displayer'
+import {renderMenu} from './menu'
+import {renderContact} from './contact'
 
-placeItems();
+renderContact();
