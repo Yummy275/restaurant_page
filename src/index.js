@@ -1,1 +1,3 @@
-console.log("Hello from me");
+import {placeItems} from './displayer'
+
+placeItems();
